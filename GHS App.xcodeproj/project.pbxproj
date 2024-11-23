@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000C0A0428A7FD7400E24C47 /* TeacherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000C0A0328A7FD7400E24C47 /* TeacherView.swift */; };
+		000DA997289837BD00B88F47 /* GHS_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000DA996289837BD00B88F47 /* GHS_AppApp.swift */; };
+		000DA999289837BD00B88F47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000DA998289837BD00B88F47 /* ContentView.swift */; };
+		000DA99B289837BE00B88F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000DA99A289837BE00B88F47 /* Assets.xcassets */; };
+		000DA99E289837BE00B88F47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000DA99D289837BE00B88F47 /* Preview Assets.xcassets */; };
+		000DA9A8289837BE00B88F47 /* GHS_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000DA9A7289837BE00B88F47 /* GHS_AppTests.swift */; };
+		000DA9B2289837BE00B88F47 /* GHS_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000DA9B1289837BE00B88F47 /* GHS_AppUITests.swift */; };
+		000DA9B4289837BE00B88F47 /* GHS_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000DA9B3289837BE00B88F47 /* GHS_AppUITestsLaunchTests.swift */; };
+		0016ED5228A28645003D3B47 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0016ED5128A28645003D3B47 /* Launch Screen.storyboard */; };
+		003BC0572973861100AAFAB4 /* examResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BC0562973861100AAFAB4 /* examResults.swift */; };
+		0041C355294288060079D90F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041C354294288060079D90F /* LocationManager.swift */; };
+		0041C357294299BB0079D90F /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041C356294299BB0079D90F /* WeatherManager.swift */; };
+		0041C3592942AD330079D90F /* Delete this.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041C3582942AD330079D90F /* Delete this.swift */; };
+		0053129A28993B0800EF4408 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0053129928993B0800EF4408 /* GoogleService-Info.plist */; };
+		005FEDA728A0FBD300112533 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FEDA628A0FBD300112533 /* FirebaseManager.swift */; };
+		0069B338293D10480004F6DB /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069B337293D10480004F6DB /* Information.swift */; };
+		006A98EF28B812BC0027F8AB /* Postcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A98EE28B812BB0027F8AB /* Postcards.swift */; };
+		006B119C28D76DA400A60BC5 /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006B119B28D76DA400A60BC5 /* Other.swift */; };
+		006D02DE28B9562800AD3A1B /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 006D02DD28B9562800AD3A1B /* SDWebImageSwiftUI */; };
+		006D02E328B99CA000AD3A1B /* Messaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D02E228B99CA000AD3A1B /* Messaging.swift */; };
+		00B37A5728A07CA60008A152 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 00B37A5628A07CA60008A152 /* FirebaseAuth */; };
+		00B37A5928A07CA60008A152 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 00B37A5828A07CA60008A152 /* FirebaseFirestore */; };
+		00B37A5B28A07CA60008A152 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 00B37A5A28A07CA60008A152 /* FirebaseStorage */; };
+		00C22503289D5FA900D5E257 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C22502289D5FA900D5E257 /* MainView.swift */; };
+		00CF826428C57742000EA248 /* Appointments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF826328C57742000EA248 /* Appointments.swift */; };
+		00EF54FB28A97ED200A64161 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EF54FA28A97ED200A64161 /* News.swift */; };
+		00EF54FD28A99CD000A64161 /* Absence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EF54FC28A99CD000A64161 /* Absence.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		000DA9A4289837BE00B88F47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000DA98B289837BD00B88F47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000DA992289837BD00B88F47;
+			remoteInfo = "GHS App";
+		};
+		000DA9AE289837BE00B88F47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000DA98B289837BD00B88F47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000DA992289837BD00B88F47;
+			remoteInfo = "GHS App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000C0A0328A7FD7400E24C47 /* TeacherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherView.swift; sourceTree = "<group>"; };
+		000DA993289837BD00B88F47 /* GHS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GHS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		000DA996289837BD00B88F47 /* GHS_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHS_AppApp.swift; sourceTree = "<group>"; };
+		000DA998289837BD00B88F47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		000DA99A289837BE00B88F47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000DA99D289837BE00B88F47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		000DA9A3289837BE00B88F47 /* GHS AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GHS AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		000DA9A7289837BE00B88F47 /* GHS_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHS_AppTests.swift; sourceTree = "<group>"; };
+		000DA9AD289837BE00B88F47 /* GHS AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GHS AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		000DA9B1289837BE00B88F47 /* GHS_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHS_AppUITests.swift; sourceTree = "<group>"; };
+		000DA9B3289837BE00B88F47 /* GHS_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHS_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0016ED5128A28645003D3B47 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		003BC0562973861100AAFAB4 /* examResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = examResults.swift; sourceTree = "<group>"; };
+		0041C354294288060079D90F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		0041C356294299BB0079D90F /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		0041C3582942AD330079D90F /* Delete this.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Delete this.swift"; sourceTree = "<group>"; };
+		0053129928993B0800EF4408 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		005FEDA628A0FBD300112533 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		0069B337293D10480004F6DB /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		006A98EE28B812BB0027F8AB /* Postcards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postcards.swift; sourceTree = "<group>"; };
+		006B119B28D76DA400A60BC5 /* Other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
+		006D02E228B99CA000AD3A1B /* Messaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messaging.swift; sourceTree = "<group>"; };
+		00C22502289D5FA900D5E257 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		00CF826328C57742000EA248 /* Appointments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointments.swift; sourceTree = "<group>"; };
+		00EF54FA28A97ED200A64161 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		00EF54FC28A99CD000A64161 /* Absence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absence.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000DA990289837BD00B88F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006D02DE28B9562800AD3A1B /* SDWebImageSwiftUI in Frameworks */,
+				00B37A5728A07CA60008A152 /* FirebaseAuth in Frameworks */,
+				00B37A5928A07CA60008A152 /* FirebaseFirestore in Frameworks */,
+				00B37A5B28A07CA60008A152 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000DA9A0289837BE00B88F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000DA9AA289837BE00B88F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000DA98A289837BD00B88F47 = {
+			isa = PBXGroup;
+			children = (
+				000DA995289837BD00B88F47 /* GHS App */,
+				000DA9A6289837BE00B88F47 /* GHS AppTests */,
+				000DA9B0289837BE00B88F47 /* GHS AppUITests */,
+				000DA994289837BD00B88F47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000DA994289837BD00B88F47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000DA993289837BD00B88F47 /* GHS App.app */,
+				000DA9A3289837BE00B88F47 /* GHS AppTests.xctest */,
+				000DA9AD289837BE00B88F47 /* GHS AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000DA995289837BD00B88F47 /* GHS App */ = {
+			isa = PBXGroup;
+			children = (
+				0069B339293D146B0004F6DB /* Information Page */,
+				000DA996289837BD00B88F47 /* GHS_AppApp.swift */,
+				0016ED5128A28645003D3B47 /* Launch Screen.storyboard */,
+				000DA998289837BD00B88F47 /* ContentView.swift */,
+				0053129928993B0800EF4408 /* GoogleService-Info.plist */,
+				000DA99A289837BE00B88F47 /* Assets.xcassets */,
+				000DA99C289837BE00B88F47 /* Preview Content */,
+				00C22502289D5FA900D5E257 /* MainView.swift */,
+				005FEDA628A0FBD300112533 /* FirebaseManager.swift */,
+				000C0A0328A7FD7400E24C47 /* TeacherView.swift */,
+				00EF54FA28A97ED200A64161 /* News.swift */,
+				00EF54FC28A99CD000A64161 /* Absence.swift */,
+				006A98EE28B812BB0027F8AB /* Postcards.swift */,
+				006D02E228B99CA000AD3A1B /* Messaging.swift */,
+				00CF826328C57742000EA248 /* Appointments.swift */,
+				006B119B28D76DA400A60BC5 /* Other.swift */,
+				003BC0562973861100AAFAB4 /* examResults.swift */,
+			);
+			path = "GHS App";
+			sourceTree = "<group>";
+		};
+		000DA99C289837BE00B88F47 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				000DA99D289837BE00B88F47 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		000DA9A6289837BE00B88F47 /* GHS AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				000DA9A7289837BE00B88F47 /* GHS_AppTests.swift */,
+			);
+			path = "GHS AppTests";
+			sourceTree = "<group>";
+		};
+		000DA9B0289837BE00B88F47 /* GHS AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				000DA9B1289837BE00B88F47 /* GHS_AppUITests.swift */,
+				000DA9B3289837BE00B88F47 /* GHS_AppUITestsLaunchTests.swift */,
+			);
+			path = "GHS AppUITests";
+			sourceTree = "<group>";
+		};
+		0069B339293D146B0004F6DB /* Information Page */ = {
+			isa = PBXGroup;
+			children = (
+				0069B337293D10480004F6DB /* Information.swift */,
+				0041C354294288060079D90F /* LocationManager.swift */,
+				0041C356294299BB0079D90F /* WeatherManager.swift */,
+				0041C3582942AD330079D90F /* Delete this.swift */,
+			);
+			path = "Information Page";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000DA992289837BD00B88F47 /* GHS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000DA9B7289837BE00B88F47 /* Build configuration list for PBXNativeTarget "GHS App" */;
+			buildPhases = (
+				000DA98F289837BD00B88F47 /* Sources */,
+				000DA990289837BD00B88F47 /* Frameworks */,
+				000DA991289837BD00B88F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GHS App";
+			packageProductDependencies = (
+				00B37A5628A07CA60008A152 /* FirebaseAuth */,
+				00B37A5828A07CA60008A152 /* FirebaseFirestore */,
+				00B37A5A28A07CA60008A152 /* FirebaseStorage */,
+				006D02DD28B9562800AD3A1B /* SDWebImageSwiftUI */,
+			);
+			productName = "GHS App";
+			productReference = 000DA993289837BD00B88F47 /* GHS App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		000DA9A2289837BE00B88F47 /* GHS AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000DA9BA289837BE00B88F47 /* Build configuration list for PBXNativeTarget "GHS AppTests" */;
+			buildPhases = (
+				000DA99F289837BE00B88F47 /* Sources */,
+				000DA9A0289837BE00B88F47 /* Frameworks */,
+				000DA9A1289837BE00B88F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000DA9A5289837BE00B88F47 /* PBXTargetDependency */,
+			);
+			name = "GHS AppTests";
+			productName = "GHS AppTests";
+			productReference = 000DA9A3289837BE00B88F47 /* GHS AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		000DA9AC289837BE00B88F47 /* GHS AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000DA9BD289837BE00B88F47 /* Build configuration list for PBXNativeTarget "GHS AppUITests" */;
+			buildPhases = (
+				000DA9A9289837BE00B88F47 /* Sources */,
+				000DA9AA289837BE00B88F47 /* Frameworks */,
+				000DA9AB289837BE00B88F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000DA9AF289837BE00B88F47 /* PBXTargetDependency */,
+			);
+			name = "GHS AppUITests";
+			productName = "GHS AppUITests";
+			productReference = 000DA9AD289837BE00B88F47 /* GHS AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000DA98B289837BD00B88F47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					000DA992289837BD00B88F47 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					000DA9A2289837BE00B88F47 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 000DA992289837BD00B88F47;
+					};
+					000DA9AC289837BE00B88F47 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 000DA992289837BD00B88F47;
+					};
+				};
+			};
+			buildConfigurationList = 000DA98E289837BD00B88F47 /* Build configuration list for PBXProject "GHS App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000DA98A289837BD00B88F47;
+			packageReferences = (
+				00B37A5528A07CA60008A152 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				006D02DC28B9562800AD3A1B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 000DA994289837BD00B88F47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000DA992289837BD00B88F47 /* GHS App */,
+				000DA9A2289837BE00B88F47 /* GHS AppTests */,
+				000DA9AC289837BE00B88F47 /* GHS AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000DA991289837BD00B88F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000DA99E289837BE00B88F47 /* Preview Assets.xcassets in Resources */,
+				000DA99B289837BE00B88F47 /* Assets.xcassets in Resources */,
+				0016ED5228A28645003D3B47 /* Launch Screen.storyboard in Resources */,
+				0053129A28993B0800EF4408 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000DA9A1289837BE00B88F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000DA9AB289837BE00B88F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000DA98F289837BD00B88F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005FEDA728A0FBD300112533 /* FirebaseManager.swift in Sources */,
+				000DA999289837BD00B88F47 /* ContentView.swift in Sources */,
+				00EF54FD28A99CD000A64161 /* Absence.swift in Sources */,
+				00C22503289D5FA900D5E257 /* MainView.swift in Sources */,
+				00EF54FB28A97ED200A64161 /* News.swift in Sources */,
+				006A98EF28B812BC0027F8AB /* Postcards.swift in Sources */,
+				0069B338293D10480004F6DB /* Information.swift in Sources */,
+				000DA997289837BD00B88F47 /* GHS_AppApp.swift in Sources */,
+				00CF826428C57742000EA248 /* Appointments.swift in Sources */,
+				003BC0572973861100AAFAB4 /* examResults.swift in Sources */,
+				006B119C28D76DA400A60BC5 /* Other.swift in Sources */,
+				0041C357294299BB0079D90F /* WeatherManager.swift in Sources */,
+				000C0A0428A7FD7400E24C47 /* TeacherView.swift in Sources */,
+				006D02E328B99CA000AD3A1B /* Messaging.swift in Sources */,
+				0041C3592942AD330079D90F /* Delete this.swift in Sources */,
+				0041C355294288060079D90F /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000DA99F289837BE00B88F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000DA9A8289837BE00B88F47 /* GHS_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000DA9A9289837BE00B88F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000DA9B2289837BE00B88F47 /* GHS_AppUITests.swift in Sources */,
+				000DA9B4289837BE00B88F47 /* GHS_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000DA9A5289837BE00B88F47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000DA992289837BD00B88F47 /* GHS App */;
+			targetProxy = 000DA9A4289837BE00B88F47 /* PBXContainerItemProxy */;
+		};
+		000DA9AF289837BE00B88F47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000DA992289837BD00B88F47 /* GHS App */;
+			targetProxy = 000DA9AE289837BE00B88F47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000DA9B5289837BE00B88F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000DA9B6289837BE00B88F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000DA9B8289837BE00B88F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GHS App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2F42AJ7FF7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "syed.GHS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000DA9B9289837BE00B88F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GHS App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2F42AJ7FF7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "syed.GHS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		000DA9BB289837BE00B88F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "syed.GHS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHS App.app/GHS App";
+			};
+			name = Debug;
+		};
+		000DA9BC289837BE00B88F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "syed.GHS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHS App.app/GHS App";
+			};
+			name = Release;
+		};
+		000DA9BE289837BE00B88F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "syed.GHS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GHS App";
+			};
+			name = Debug;
+		};
+		000DA9BF289837BE00B88F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "syed.GHS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GHS App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000DA98E289837BD00B88F47 /* Build configuration list for PBXProject "GHS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000DA9B5289837BE00B88F47 /* Debug */,
+				000DA9B6289837BE00B88F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000DA9B7289837BE00B88F47 /* Build configuration list for PBXNativeTarget "GHS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000DA9B8289837BE00B88F47 /* Debug */,
+				000DA9B9289837BE00B88F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000DA9BA289837BE00B88F47 /* Build configuration list for PBXNativeTarget "GHS AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000DA9BB289837BE00B88F47 /* Debug */,
+				000DA9BC289837BE00B88F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000DA9BD289837BE00B88F47 /* Build configuration list for PBXNativeTarget "GHS AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000DA9BE289837BE00B88F47 /* Debug */,
+				000DA9BF289837BE00B88F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		006D02DC28B9562800AD3A1B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		00B37A5528A07CA60008A152 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		006D02DD28B9562800AD3A1B /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 006D02DC28B9562800AD3A1B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		00B37A5628A07CA60008A152 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00B37A5528A07CA60008A152 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		00B37A5828A07CA60008A152 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00B37A5528A07CA60008A152 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		00B37A5A28A07CA60008A152 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00B37A5528A07CA60008A152 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 000DA98B289837BD00B88F47 /* Project object */;
+}
